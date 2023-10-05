@@ -3,30 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Bhaskara</title>
+    <title>bhaskara d' mat</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="js.js">
 </head>
 
 <body>
-    <div class="container">
-        <h1>bhaskara</h1>
-        <form>
-            <label for="valorA">Valor de A:</label>
-            <input type="number" id="valorA" required><br><br>
+    <header>
+        <h2>Bhaskara</h2>
+    </header>
+    <section>
 
-            <label for="valorC">Valor de B:</label>
-            <input type="number" id="valorB" required><br><br>
-
-            <label for="valorC">Valor de C:</label>
-            <input type="number" id="valorC" required><br><br>
-
-            <button type="button" on click="calcularRaizes()">Calcular Raízes</button>
+        <form action="">
+            <div class="caixa">
+                <input type="number" name="a" id="a" placeholder="Escreva aqui">
+            </div>
+            <div class="caixa">
+                <input type="number" name="b" id="b" placeholder="Escreva aqui">
+            </div>
+            <div class="caixa">
+                <input type="number" name="c" id="c" placeholder="Escreva aqui">
+            </div>
+            <div class="buttons">
+                <button id="calcular">Calcular</button>
+                <button id="limpar">Limpar</button>
+            </div>
+            <div id="resultado">Resultado: </div>
         </form>
-    </div>
-    <div id="resultadoDiv"></div>
+    </section>
 
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>

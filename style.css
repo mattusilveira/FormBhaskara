@@ -1,56 +1,42 @@
-@charset "UTF-8";
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@100;500;600;900&display=swap");
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #000000;
+* {
+    box-sizing: border-box;
+    margin: auto;
 }
 
-.container {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 150px 35% 100px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
+header {
+    margin-top: 15%;
+    width: 10%;
     text-align: center;
+    background-color: rgb(187, 43, 43);
+    color: rgb(255, 255, 255);
+    padding: 5px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
 }
 
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
+form img {
+    float: left;
+
 }
 
-input,
-select {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.caixa {
+    margin-top: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
 }
 
 button {
-    background-color: #bb0000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-button:hover {
-    background-color: #770000;
+    padding: 5px;
+    border-radius: 5px;
 }
